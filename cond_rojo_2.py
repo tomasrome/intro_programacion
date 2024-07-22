@@ -3,6 +3,9 @@
 #4 y 5           ---> Aprobado, la nota es ...
 #1, 2 y 3        ---> Desaprobado, la nota es ...
 
+# Tomás Romero
+# Condicionales Rojo 2
+
 import random
 
 numero_aleatorio = random.randint(1,10)

@@ -15,10 +15,13 @@
 
 #Marca, cantidad de lámparas, total a pagar sin descuento, el descuento obtenido si corresponde, el descuento adicional (si corresponde) y el total a pagar con descuento.
 
+# Tomás Romero
+# Condicionales Ferrete Iluminación
+
 precio_lamparas = 800
 cantidad_lamparas = input("Ingrese la cantidad de lamparas: ")
 cantidad_lamparas = int(cantidad_lamparas)
-marca_lamparas = input("Ingrese la marca de la lampara: ")
+marca_lamparas = input("Ingrese la marca de las lamparas: ")
 descuento = 0
 
 if cantidad_lamparas > 5:
@@ -54,4 +57,5 @@ if total_con_descuento > 4000:
     total_con_descuento = total_con_descuento - total_con_descuento*5/100
     print(f"Descuento adicional: 5%")
 print(f"Total a pagar con descuento: ${total_con_descuento}")
+print("--------------------------")
 
