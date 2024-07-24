@@ -24,15 +24,12 @@ votos_totales = 0
 while contador_jugadores < 3:
 
     nombre_jugador = input("Ingrese el nombre del jugador: ")
-    
     edad_jugador = int(input("Ingrese la edad del jugador: "))
     while edad_jugador < 26:
         edad_jugador = int(input("Debe ser mayor a 25 años. Reingrese la edad: "))
-
     cantidad_votos = int(input("Ingrese la cantidad de votos: "))
     while cantidad_votos < 0:
         cantidad_votos = int(input("Los votos no pueden ser negativos. Reingrese la cantidad de votos: "))
-
     print("------------------------")
 
     if contador_jugadores == 0:
